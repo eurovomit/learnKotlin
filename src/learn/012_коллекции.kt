@@ -121,4 +121,9 @@ fun main() {
     dict6.forEach{(str, value) -> println("$str=${"%.2f".format(value)}")}
     dict6.forEach{ println("${it.key}=${it.value}") }
 
+
+    //    ==============ПОСЛЕДОВАТЕЛЬНОСТИ=============
+
+    val seq1 = generateSequence(0) { it + 1 }.takeWhile{it < 5}.toList()
+
 }
