@@ -1,3 +1,7 @@
+import learn.*
+
+
+
 fun main() {
-    println("Hello World!")
+    println(a1)
 }
